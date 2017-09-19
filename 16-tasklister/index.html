@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Lister</title>
+  </head>
+  <body>
+
+    <main>
+      <h1>Task Lister</h1>
+      <div id="list-form-container">
+        <form id="list-form">
+          <div>
+            <label for="list-title">Add a list</label>
+            <input type="text" id="list-title" placeholder="List title">
+          </div>
+          <input type="submit" value="add (+)">
+        </form>
+      </div>
+      <div id="task-form-container"></div>
+      <div id="lists-container"></div>
+    </main>
+
+    <!-- JavaScript files loaded below this line -->
+    <script src="./components/TaskForm.js"></script>
+    <script src="./components/Task.js"></script>
+
+    <script src="./components/ListForm.js"></script>
+    <script src="./components/List.js"></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
